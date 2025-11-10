@@ -12,9 +12,9 @@ func main(){
 	fmt.Println(len(mySlice2))
 	fmt.Println(cap(mySlice2))
 
-
 	mySlice3 := []string{"I", "want", "to", "write", "Golang"}
 	fmt.Println(mySlice3)
 	fmt.Println(len(mySlice3))
 	fmt.Println(cap(mySlice3))
+	fmt.Println(cap(mySlice))
 }
