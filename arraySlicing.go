@@ -15,6 +15,11 @@ func sliceArray(){
 func sliceWithMake(){
 	myArray := make([] int, 8)
 	fmt.Println(myArray)
+	myArray[1] = 5
+	fmt.Println(myArray)
+	fmt.Println(cap(myArray))
+	myArray = append(myArray, 50,60)
+	fmt.Println(myArray)
 }
 
 func main(){
