@@ -1,5 +1,5 @@
 package main
-import "fmtj"
+import "fmt"
 
 type student struct{
 	name string
