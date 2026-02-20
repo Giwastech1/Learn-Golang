@@ -9,6 +9,7 @@ func sliceArray(){
 	fmt.Println(myNewArray)
 	fmt.Println(cap(myNewArray))
 	myNewArray = myArray[1:5]
+
 }
 
 func sliceWithMake(){
