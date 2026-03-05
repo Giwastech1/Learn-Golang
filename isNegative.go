@@ -9,9 +9,3 @@ func isNegative(nb int) {
 		fmt.Println("F")
 	}
 }
-
-func main() {
-	isNegative(1)
-	isNegative(0)
-	isNegative(-1)
-}

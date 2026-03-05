@@ -23,7 +23,3 @@ func studentInfo(){
 	updateInfo(&toyyib, "Giwa Omotosho",25)
 	fmt.Println(toyyib)
 }
-
-func main(){
-	studentInfo()
-}

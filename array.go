@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func array() {
 	var myArray = [3]int{1,2,3}
 	array2:= [...]int{4,5,6,7,8,9,8}
 	var array3 = [4]string{"book","pen","boy","girl"}

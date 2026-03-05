@@ -21,7 +21,3 @@ func sliceWithMake(){
 	myArray = append(myArray, 50,60)
 	fmt.Println(myArray)
 }
-func main(){
-	sliceArray()
-	sliceWithMake()
-}

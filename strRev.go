@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func strRev(s string) string {
 	runes := []rune(s)
 	length := len(runes)
@@ -11,10 +9,9 @@ func strRev(s string) string {
 	return string(runes)
 }
 
-func main() {
+/*func main() {
 	fmt.Println(strRev("Hello world!"))
 	fmt.Println(strRev("ghfghvvffffff"))
 	fmt.Println(strRev("aé中"))
 	fmt.Println(strRev("world"))
-
-}
+}*/

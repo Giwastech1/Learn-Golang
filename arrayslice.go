@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func arraySlice(){
 	mySlice := [...]int{}
 	mySlice2 := []int{1,2,3}
 	fmt.Println(mySlice)

@@ -8,9 +8,3 @@ func printStr(s string) {
 	}
 	fmt.Print("\n")
 }
-
-func main() {
-	printStr("Hello everyone!")
-	printStr("Hello world!")
-	printStr("Hello !")
-}

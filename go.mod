@@ -1,3 +1,3 @@
-module hello.go
+module practice-go
 
 go 1.25.3
